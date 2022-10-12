@@ -79,3 +79,12 @@ while ($iterator->valid()) {
     $iterator->next();
 }
 // London is in United Kingdom. Washington is in United States. Paris is in France. Delhi is in India.
+
+
+
+//-------------SORTING THE ARRAY
+$data = array(15, 81, 14, 74, 2);
+// sort and print array
+sort($data);
+print_r($data);
+// output: (2,14,15,74,81)
