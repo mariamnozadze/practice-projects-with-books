@@ -92,12 +92,12 @@ function calcAverage()
 }
 // function invocation
 // with 3 arguments
-echo calcAverage(3, 6, 9);
+// echo calcAverage(3, 6, 9);
 // output: 6
 
 // function invocation
 // with 8 arguments
-echo calcAverage(100, 200, 100, 300, 50, 150, 250, 50);
+// echo calcAverage(100, 200, 100, 300, 50, 150, 250, 50);
 // output: 150
 
 //===============EASY WAY TO CALCULATE AVERAGE===================
