@@ -33,3 +33,13 @@ class BadClass
 
 //Once you’ve finished with an object, you can delete it as you would any variable:
 //------unset($object);
+
+
+
+//--------------------------------
+
+/** what if you wanted to change the behavior of the parent class’s methods? It would be wrong to change the definition of the parent class (presumably it works as it should, and besides, other classes might inherit from it too ). Instead, you can override a parent class’s method to customize it for the new class. ---This is polymorphism----, where calling the same method can have different results, depending on the object type.*/
+
+/**
+ * ----Visibility ----- controls what members of a class can be accessed or altered by other classes (or even outside of any class).
+ */
