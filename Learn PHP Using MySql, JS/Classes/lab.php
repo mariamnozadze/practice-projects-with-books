@@ -1,6 +1,6 @@
 <?php
 require_once('dog.php');
-$lab = new Dog;
+// $lab = new Dog;
 //Once the instance is created, you can then access any methods by using the object name ($lab) and the method name (get_properties).
 // $lab->get_properties();
 
