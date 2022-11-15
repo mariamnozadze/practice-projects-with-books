@@ -32,7 +32,11 @@ class SupernaturalPerson extends Person
 
 $person = new Person;
 $person->incrementAge();
+//Age changed to 1
+
 //$person->decrementAge(); // not allowed
 //$person->ageChanged(); // also not allowed
+
 $person = new SupernaturalPerson;
 $person->incrementAge(); // calls decrementAge under the hood
+//Age changed to -1
